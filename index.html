@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>X DM Task Manager</title>
+  <meta name="description" content="Personal tool for organizing X direct-message based sales transactions.">
+  <style>
+    :root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#111;background:#f6f7f9}
+    body{margin:0}
+    main{max-width:760px;margin:72px auto;padding:0 24px}
+    .card{background:#fff;border:1px solid #e5e7eb;border-radius:18px;padding:36px;box-shadow:0 10px 30px rgba(0,0,0,.05)}
+    h1{font-size:34px;margin:0 0 10px}
+    h2{font-size:20px;margin-top:32px}
+    p,li{line-height:1.8}
+    .muted{color:#667085}
+    .badge{display:inline-block;background:#eef2ff;color:#3730a3;padding:6px 10px;border-radius:999px;font-size:13px;font-weight:600}
+    footer{margin-top:28px;font-size:14px;color:#667085}
+    a{color:#2563eb}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <span class="badge">Personal development project</span>
+      <h1>X DM Task Manager</h1>
+      <p class="muted">Xのダイレクトメッセージを使った物販取引を、わかりやすく整理するための個人用管理ツールです。</p>
+
+      <h2>目的</h2>
+      <p>返信、支払い確認、発送準備、発送、完了などの進捗を取引ごとに整理し、次に必要な対応を把握しやすくすることを目的としています。</p>
+
+      <h2>X APIの利用</h2>
+      <ul>
+        <li>認証した自分のXアカウントに関係するDMデータを、取引管理のために取得します。</li>
+        <li>取得データは取引状況の整理・表示のために使用します。</li>
+        <li>Xから取得したデータを第三者へ販売・公開・再配布することを目的としていません。</li>
+        <li>重要な取引ステータスの確定はユーザーが確認して行う設計です。</li>
+      </ul>
+
+      <h2>開発状況</h2>
+      <p>現在はローカルPCで動作する個人用ツールとして開発中です。</p>
+
+      <footer>
+        <a href="./privacy.html">Privacy Policy</a> ·
+        <a href="./terms.html">Terms of Use</a>
+      </footer>
+    </div>
+  </main>
+</body>
+</html>
